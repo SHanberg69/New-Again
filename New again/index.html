@@ -1,0 +1,148 @@
+<!DOCTYPE.html>
+<html lang="en">
+
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/style.css">
+		<meta charset="UTF-8">
+	<script src= "jquery-1.10.2.min.js"></script>
+	
+	<!-- smooth scroll-->
+	<script>
+			$(document).ready(function({
+				$("#link1").click(function(){
+					$path=$("#page1").top;
+				
+				$('body').animate({scollTop:$path},1000);
+			});
+		
+			$(document).ready(function({
+				$("#link2").click(function(){
+					$path=$("#page2").top;
+				
+				$('body').animate({scollTop:$path},1000);
+			});
+		
+			$(document).ready(function({
+				$("#link3").click(function(){
+					$path=$("#page3").top;
+				
+				$('body').animate({scollTop:$path},1000);
+			});
+		
+		$(document).ready(function({
+				$("#link4").click(function(){
+					$path=$("#page4").top;
+				
+				$('body').animate({scollTop:$path},1000);
+			});
+</script>
+	<!-- end smooth scroll-->
+	
+	
+	<title>shanberg</title>
+</head>
+
+<body>
+	<section id="home">
+			<nav>
+				<ul>
+					<li><a href="#home" class="active">Home</a></li>
+					<li><a href="#developer">Developer Skills</a></li>
+					<li><a href="#professional">Professional Skills</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+	
+
+	<div class=name_box>
+		<h1>Sara Hanberg</h1>
+			<h3>Software Developer</h3>
+	</div>
+	</section>
+
+	<!-- Developing Skills begins-->
+	
+<section id="page1">
+	
+		<div class="grid-container">
+	
+		<a id="developer"> </a>
+			<h1>Developer Skills</h1>
+ 
+	<div class="grid-item">
+		<div class="dropdown">
+			<img src="./img/LogicStudio_HTML5.png" width="20%" height="25%">
+			<div class=dropdown-content>
+				<p> this is where some text would go</p>
+			</div>
+		</div>
+	</div>
+		
+	<div class="grid-item">	
+		<div class="dropdown">
+			<img src="./img/sql.png" width="20%" height="25%">
+			<div class=dropdown-content>
+				<p> this is where some text would go</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="grid-item">
+		<div class="dropdown">
+			<img src="./img/visualstudio-icon.png" width="20%" height="25%">
+			<div class=dropdown-content>
+				<p> this is where some text would go</p>
+			</div>
+		</div>
+	</div>
+			
+	
+	<div class="grid-item">
+		<div class="dropdown">
+			<img src="./img/csharp.png" width="20%" height="25%">
+			<div class=dropdown-content>
+				<p> this is where some text would go</p>
+			</div>
+		</div>
+	</div>
+
+			
+	<div class="grid-item">
+		<div class="dropdown">
+			<img src="./img/ASP.png" width="20%" height="25%">
+			<div class=dropdown-content>
+				<p> this is where some text would go</p>
+			</div>
+		</div>
+	</div>
+</div>
+	
+</section>
+		<!-- end developing skill-->
+	
+	<!-- begin professional skills-->
+<section id= "page2">
+	
+		<a id="professional" </a>
+			<h1>Professional Skills</h1>
+	
+</section>
+	
+	<!-- end professional skills-->
+	
+	<!-- about-->
+<section id="page3">
+	
+		<a id="about" class="smooth"></a>
+			<h1>About</h1>
+	
+	
+</section>
+    <!--- end of about-->
+	
+  
+        
+</body>
+
+</html>
