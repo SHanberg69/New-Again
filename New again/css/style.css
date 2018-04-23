@@ -1,9 +1,45 @@
+html {
+scroll-behavior: smooth
+}
 
 
 body {
 	font-family:"Copperplate Light", "Copperplate Gothic Light", "serif";
 	
 }
+
+/*-- navigation--*/
+
+nav{
+	position:sticky;
+}
+
+ul {
+    list-style-type: none;
+	top:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	position: sticky;
+}
+
+li a:hover {
+    background-color: #66ccff;
+}
+/*-- /navagation--*/
 
 section{
 	margin:0;
@@ -12,6 +48,7 @@ section{
 }
 
 #home{
+	margin: 0;
 	background-image: url(../img/laptop.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -27,36 +64,6 @@ section{
 	background-color: #cceeff;
 }
 
-/*-- navigation--*/
-
-nav {
-	position: sticky;
-}
-
-ul {
-    list-style-type: none;
-    margin-top: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #66ccff;
-}
 
 
 /*--home page--*/
@@ -83,7 +90,7 @@ h1{
 	
 }
 
-
+/*--
 .dropdown {
 
     display: inline;
@@ -105,17 +112,21 @@ h1{
 	
 }
 
-..grid-container {
+
+.grid-container {
   display: grid;
+border: solid black;
   grid-template-columns: auto auto auto;
   padding: 10px;
+	
+
 }
-..grid-item {
+.grid-item {
   padding: 20px;
   font-size: 30px;
 
 }
-
+--*/
 
 
 
@@ -123,22 +134,22 @@ h1{
 
 /*--developer--*/
 .developer{
+	display: grid;
+	border: solid black;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
 	flex direction: row;
 	flex-wrap: wrap;
 }
 	
 	
-..flex-grid{
+.flex-grid{
 	display:grid;
 	grid-row-gap: 15px;
 	
 	padding: 10px;	
 }
-
-..col{
-	grid-template-columns: 32%;
-}
-
+	
 
 
 
